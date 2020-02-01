@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Blog Template`,
-    name: `Blog Template`,
-    siteUrl: `https://template.blog.shunkakinoki.com`,
-    description: `Blog Template`,
+    title: `Blog`,
+    name: `Blog by Shun Kakinoki`,
+    siteUrl: `https://blog.shunkakinoki.com`,
+    description: `Personal Blog by Shun Kakinoki`,
     hero: {
       heading: `Blog Template`,
       maxWidth: 652,
     },
     social: [{
       name: `github`,
-      url: `https://github.com/shunkakinoki-blog/template`,
+      url: `https://github.com/shunkakinoki-blog/blog`,
     }],
   },
   plugins: [{
