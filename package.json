@@ -15,7 +15,7 @@
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-unicorn": "^10.0.0",
+    "eslint-plugin-unicorn": "^15.0.1",
     "gatsby": "^2.13.41",
     "gatsby-plugin-google-analytics": "^2.1.6",
     "gatsby-plugin-mailchimp": "^5.1.2",
