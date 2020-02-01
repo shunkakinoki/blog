@@ -1,0 +1,55 @@
+{
+  "private": true,
+  "name": "site",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@narative/gatsby-theme-novela": "^0.*",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-unicorn": "^10.0.0",
+    "gatsby": "^2.13.41",
+    "gatsby-plugin-google-analytics": "^2.1.6",
+    "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-manifest": "^2.2.4",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "plugin:prettier/recommended",
+      "plugin:unicorn/recommended"
+    ],
+    "env": {
+      "browser": false
+    },
+    "overrides": [],
+    "plugins": [],
+    "rules": {
+      "unicorn/no-abusive-eslint-disable": 0,
+      "unicorn/filename-case": [
+        "error",
+        {
+          "cases": {
+            "camelCase": true,
+            "kebabCase": true
+          }
+        }
+      ]
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}

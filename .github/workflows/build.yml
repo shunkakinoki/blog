@@ -1,0 +1,25 @@
+name: Build
+on: [pull_request, pull_request_review]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: Cache node modules
+        id: cache
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            node-
+      - name: Install dependencies with yarn
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          yarn install
+      - name: Build Gatsby Site
+        run: |
+          yarn run build
