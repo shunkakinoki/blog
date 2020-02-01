@@ -16,7 +16,7 @@ const Subscription: React.FunctionComponent<{}> = () => {
     event.preventDefault();
 
     addToMailchimp(email, {
-        'group[67373]': '4',
+        'group[67373]': '1',
     }, null)
       .then(data => {
         if (data.result === "error") {
