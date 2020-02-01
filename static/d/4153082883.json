@@ -1,1 +1,1 @@
-{"data":{"allSite":{"edges":[{"node":{"id":"Site","siteMetadata":{"description":"Blog Template","social":[{"url":"https://github.com/shunkakinoki-blog/template"}],"siteUrl":"https://template.blog.shunkakinoki.com","title":"Blog Template"}}}]}}}
+{"data":{"allSite":{"edges":[{"node":{"id":"Site","siteMetadata":{"description":"Personal Blog by Shun Kakinoki","social":[{"url":"https://github.com/shunkakinoki-blog/blog"}],"siteUrl":"https://blog.shunkakinoki.com","title":"Blog"}}}]}}}
