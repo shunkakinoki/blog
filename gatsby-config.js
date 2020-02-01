@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://blog.shunkakinoki.com`,
     description: `Personal Blog by Shun Kakinoki`,
     hero: {
-      heading: `Blog Template`,
+      heading: `My Journey Towards Obliterating the Galaxy`,
       maxWidth: 652,
     },
     social: [{
