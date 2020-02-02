@@ -5,12 +5,12 @@ module.exports = {
     siteUrl: `https://blog.shunkakinoki.com`,
     description: `Personal Blog by Shun Kakinoki`,
     hero: {
-      heading: `My Journey Towards Obliterating the Galaxy`,
+      heading: `My Journey Towards Obliterating the Galaxy.`,
       maxWidth: 652,
     },
     social: [{
       name: `github`,
-      url: `https://github.com/shunkakinoki-blog/blog`,
+      url: `https://github.com/shunkakinoki`,
     }],
   },
   plugins: [{
